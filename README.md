@@ -45,7 +45,7 @@ Compiled successfully.
 
  - [Cross Domain: Necessário para permitir o XMLHttpRequest da API](https://chrome.google.com/webstore/detail/cross-domain-cors/mjhpgnbimicffchbodmgfnemoghjakai?hl=pt-BR)
  
- Após instalada a extensão, basta ativá-la e acessar `http://localhost:4200/`. A aplicação irá carregar atomaticamente.
+ Após instalada a extensão, basta ativá-la e acessar `http://localhost:4200/`. A aplicação irá carregar automaticamente.
 
 
 ## Ajuda
