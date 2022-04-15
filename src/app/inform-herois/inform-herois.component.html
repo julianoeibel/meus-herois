@@ -1,0 +1,60 @@
+<div class="main container">
+  <div class="card mb-3" >
+    <ul class="list-group list-group-flush">
+      <li class="bg-grey list-group-item">
+        <div div class="row g-0">
+          <div class="no-padding card-body col-md-4">
+            <img src="{{heroi.image.url}}" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="card-body powerstats-section col-md-4">
+            <ul class="powerstats row">
+              <li class="col-md-2 stats-item">
+                <img src="../../assets/img/intelligence.png" alt="image">
+                <p>Inteligência<br> {{heroi.powerstats.intelligence}}</p>
+              </li>
+              <li class="col-md-2 stats-item">
+                <img src="../../assets/img/strength.png" alt="image">
+                <p>Força<br> {{heroi.powerstats.strength}}</p>
+              </li>
+              <li class="col-md-2 stats-item">
+                <img src="../../assets/img/speed.png" alt="image">
+                <p>Velocidade<br> {{heroi.powerstats.speed}}</p>
+              </li>
+              <li class="col-md-2 stats-item">
+                <img src="../../assets/img/durability.png" alt="image">
+                <p>Resistência<br> {{heroi.powerstats.durability}}</p>
+              </li>
+              <li class="col-md-2 stats-item">
+                <img src="../../assets/img/power.png" alt="image">
+                <p>Poder<br> {{heroi.powerstats.power}}</p>
+              </li>
+              <li class="col-md-2 stats-item">
+                <img src="../../assets/img/combat.png" alt="image">
+                <p>Combate<br> {{heroi.powerstats.combat}}</p>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body col-md-4">
+            <h5 class="card-title">{{ heroi.name }}</h5>
+            <p class="card-text"><span class="card-text-bold">Nome Completo:</span> {{heroi.biography['full-name']}}.</p>
+            <p class="card-text"><span class="card-text-bold">Base:</span> {{heroi.work.base}}.</p>
+            <p class="card-text"><span class="card-text-bold">Raça:</span> {{heroi.appearance.race}}.</p>
+            <p class="card-text"><span class="card-text-bold">Altura:</span> {{heroi.appearance.height[1]}}.</p>
+            <p class="card-text"><span class="card-text-bold">Peso: </span>{{heroi.appearance.weight[1]}}.</p>
+            <p class="card-text"><span class="card-text-bold">Local de Nascimento:</span> {{heroi.biography['place-of-birth']}}.</p>
+            <p class="card-text"><span class="card-text-bold">Profissão:</span> {{heroi.work.occupation}}.</p>
+            <p class="card-text"><span class="card-text-bold">Primeira Aparição:</span> {{heroi.biography['first-appearance']}}.</p>
+            <p class="card-text"><span class="card-text-bold">Aliados: </span>{{heroi.biography.aliases}}.</p>
+            <p class="card-text"><span class="card-text-bold">Afiliação:</span> {{heroi.connections['group-affiliation']}}.</p>
+          </div>
+          
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button type="button" class="cardBtn btn btn-danger me-md-6" (click)="goBack()">Voltar</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
