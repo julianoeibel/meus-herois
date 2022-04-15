@@ -41,7 +41,11 @@ Após a confirmação:
 Compiled successfully.
 ```
 
- Abra o navegador e acesse `http://localhost:4200/`. A aplicação irá carregar atomaticamente.
+ Abra o navegador Google Chrome e instale a extensão:
+
+ - [Cross Domain: Necessário para permitir o XMLHttpRequest da API](https://chrome.google.com/webstore/detail/cross-domain-cors/mjhpgnbimicffchbodmgfnemoghjakai?hl=pt-BR)
+ 
+ Após instalada a extensão, basta ativá-la e acessar `http://localhost:4200/`. A aplicação irá carregar atomaticamente.
 
 
 ## Ajuda
