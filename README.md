@@ -31,8 +31,8 @@ git clone https://github.com/julianoeibel/meus-herois.git
 Com o terminal, entre na pasta raiz do projeto e execute o comando 'ng serve':
 
 ```shell
-diretório de sua preferênica\cd meus-herois
-diretório de sua preferênica\meus-herois\ng serve
+diretório de sua preferencia\cd meus-herois
+diretório de sua preferencia\meus-herois\ng serve
 ```
 
 Após a confirmação:
